@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CareerForge internship hub">
+<title>Internship Hub | CareerForge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="../index.html"><span class="brand-mark">CF</span><span>Career<span>Forge</span></span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"><a class="nav-link" href="../index.html">Home</a><a class="nav-link" href="careers.html">Careers</a><a class="nav-link" href="assessment.html">Assessment</a><a class="nav-link active" href="internships.html">Internships</a><a class="nav-link" href="dashboard.html">Dashboard</a><a class="nav-link" href="profile.html">Profile</a></nav>
+<button class="theme-toggle icon-button" type="button" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main id="main-content">
+<section class="page-hero"><div class="container"><span class="eyebrow">INTERNSHIP HUB</span><h1>Find opportunities worth exploring.</h1><p>Search and filter sample internship listings to demonstrate an interactive frontend experience.</p></div></section>
+<section class="section"><div class="container">
+<div class="search-panel card">
+<label for="internship-search">Search by role, company or skill</label>
+<div class="search-row"><input id="internship-search" type="search" placeholder="e.g. JavaScript, Data Analyst" autocomplete="off"><button class="btn btn-primary" type="button" id="clear-search">Clear</button></div>
+<div class="filter-bar" role="group" aria-label="Internship categories"><button class="filter-btn active" data-internship-filter="all">All</button><button class="filter-btn" data-internship-filter="web">Web</button><button class="filter-btn" data-internship-filter="data">Data</button><button class="filter-btn" data-internship-filter="cloud">Cloud</button><button class="filter-btn" data-internship-filter="design">Design</button></div>
+</div>
+<p id="result-count" class="muted result-count" aria-live="polite"></p>
+<div class="internship-grid" id="internship-list">
+<article class="internship-card card" data-category="web" data-search="full stack developer html css javascript react">
+<div class="company-row"><div class="company-logo">FS</div><div><h2>Full Stack Developer</h2><p>NovaByte Labs</p></div><button class="save-btn" type="button" aria-label="Save Full Stack Developer internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><div class="meta-row"><span>📍 Remote</span><span>⏱ 3 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+<article class="internship-card card" data-category="data" data-search="data analyst python sql excel data">
+<div class="company-row"><div class="company-logo">DA</div><div><h2>Data Analyst Intern</h2><p>InsightWorks</p></div><button class="save-btn" type="button" aria-label="Save Data Analyst internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Excel</span></div><div class="meta-row"><span>📍 Hybrid</span><span>⏱ 4 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+<article class="internship-card card" data-category="cloud" data-search="cloud devops aws linux cloud">
+<div class="company-row"><div class="company-logo">CC</div><div><h2>Cloud Intern</h2><p>CloudCore Systems</p></div><button class="save-btn" type="button" aria-label="Save Cloud internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">Cloud</span><span class="tag">Linux</span><span class="tag">DevOps</span></div><div class="meta-row"><span>📍 On-site</span><span>⏱ 6 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+<article class="internship-card card" data-category="design" data-search="ui ux designer figma research design">
+<div class="company-row"><div class="company-logo">UX</div><div><h2>UI/UX Design Intern</h2><p>PixelCraft Studio</p></div><button class="save-btn" type="button" aria-label="Save UI UX Design internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">Figma</span><span class="tag">Research</span><span class="tag">UI</span></div><div class="meta-row"><span>📍 Remote</span><span>⏱ 3 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+<article class="internship-card card" data-category="web" data-search="frontend developer javascript css accessibility web">
+<div class="company-row"><div class="company-logo">FD</div><div><h2>Frontend Developer</h2><p>BrightWeb Studio</p></div><button class="save-btn" type="button" aria-label="Save Frontend Developer internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">JavaScript</span><span class="tag">CSS</span><span class="tag">A11y</span></div><div class="meta-row"><span>📍 Remote</span><span>⏱ 2 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+<article class="internship-card card" data-category="data" data-search="machine learning python statistics ai data">
+<div class="company-row"><div class="company-logo">ML</div><div><h2>ML Research Intern</h2><p>DataSpring AI</p></div><button class="save-btn" type="button" aria-label="Save ML Research internship" aria-pressed="false">☆</button></div>
+<div class="tag-row"><span class="tag">Python</span><span class="tag">ML</span><span class="tag">Statistics</span></div><div class="meta-row"><span>📍 Hybrid</span><span>⏱ 5 months</span></div><button class="btn btn-small btn-primary details-btn" type="button">View details</button></article>
+</div>
+<div id="empty-state" class="empty-state hidden"><div class="card-icon">🔎</div><h2>No internships found</h2><p>Try a different keyword or category.</p></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CareerForge</span><span>Sample data for frontend demonstration</span></div></footer>
+<script src="../js/main.js"></script><script src="../js/internships.js"></script>
+</body></html>

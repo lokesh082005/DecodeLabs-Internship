@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CareerForge student dashboard">
+<title>Dashboard | CareerForge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="../index.html"><span class="brand-mark">CF</span><span>Career<span>Forge</span></span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"><a class="nav-link" href="../index.html">Home</a><a class="nav-link" href="careers.html">Careers</a><a class="nav-link" href="assessment.html">Assessment</a><a class="nav-link" href="internships.html">Internships</a><a class="nav-link active" href="dashboard.html">Dashboard</a><a class="nav-link" href="profile.html">Profile</a></nav>
+<button class="theme-toggle icon-button" type="button" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main id="main-content">
+<section class="page-hero"><div class="container"><span class="eyebrow">STUDENT DASHBOARD</span><h1>Welcome back, future developer 👋</h1><p>A simple progress view for skills, goals and career readiness.</p></div></section>
+<section class="section"><div class="container">
+<div class="dashboard-layout">
+<article class="card dashboard-main"><div class="section-heading compact"><div><span class="eyebrow">OVERVIEW</span><h2>Your career readiness</h2></div><span class="score-badge">82%</span></div>
+<div class="readiness-large"><div class="score-ring large"><strong>82%</strong><small>Ready</small></div><div><h3>Keep building practical skills.</h3><p class="muted">Complete projects, strengthen core skills and explore internships that match your interests.</p><div class="progress"><span style="width:82%"></span></div></div></div></article>
+<aside class="card quick-card"><span class="eyebrow">CURRENT GOAL</span><h2>JavaScript Fundamentals</h2><p>Next milestone: DOM interactions</p><button class="btn btn-primary full-width" id="goal-button" type="button">Mark milestone complete</button></aside>
+</div>
+<div class="section-heading"><div><span class="eyebrow">SKILLS</span><h2>Your progress</h2></div></div>
+<div class="skills-grid">
+<article class="skill-card card"><div><span>HTML & CSS</span><strong>90%</strong></div><div class="progress"><span style="width:90%"></span></div></article>
+<article class="skill-card card"><div><span>JavaScript</span><strong>70%</strong></div><div class="progress"><span style="width:70%"></span></div></article>
+<article class="skill-card card"><div><span>Git & GitHub</span><strong>60%</strong></div><div class="progress"><span style="width:60%"></span></div></article>
+<article class="skill-card card"><div><span>UI/UX Basics</span><strong>55%</strong></div><div class="progress"><span style="width:55%"></span></div></article>
+</div>
+<div class="dashboard-layout lower">
+<article class="card"><div class="section-heading compact"><div><span class="eyebrow">RECOMMENDED</span><h2>Next actions</h2></div></div><ul class="check-list"><li><span>✓</span> Finish JavaScript DOM practice</li><li><span>✓</span> Add one project to your profile</li><li><span>✓</span> Explore three internships</li></ul></article>
+<article class="card streak-card"><div class="streak-number">7</div><div><span class="eyebrow">LEARNING STREAK</span><h2>Days in a row 🔥</h2><p class="muted">Consistency builds confidence.</p></div></article>
+</div>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CareerForge</span><span>Interactive dashboard concept</span></div></footer>
+<script src="../js/main.js"></script><script src="../js/dashboard.js"></script>
+</body></html>

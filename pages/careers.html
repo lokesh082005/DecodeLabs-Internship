@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CareerForge Career Explorer">
+  <title>Career Explorer | CareerForge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="../index.html"><span class="brand-mark">CF</span><span>Career<span>Forge</span></span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+<a class="nav-link" href="../index.html">Home</a><a class="nav-link active" href="careers.html">Careers</a><a class="nav-link" href="assessment.html">Assessment</a><a class="nav-link" href="internships.html">Internships</a><a class="nav-link" href="dashboard.html">Dashboard</a><a class="nav-link" href="profile.html">Profile</a>
+</nav><button class="theme-toggle icon-button" type="button" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main id="main-content">
+<section class="page-hero"><div class="container"><span class="eyebrow">CAREER EXPLORER</span><h1>Explore paths. Find your fit.</h1><p>Compare popular technology career directions and discover the skills behind each one.</p></div></section>
+<section class="section"><div class="container">
+<div class="filter-bar" role="group" aria-label="Career filters">
+<button class="filter-btn active" data-career-filter="all">All</button><button class="filter-btn" data-career-filter="tech">Technology</button><button class="filter-btn" data-career-filter="data">Data</button><button class="filter-btn" data-career-filter="design">Design</button>
+</div>
+<div class="card-grid career-grid" id="career-list">
+<article class="info-card career-item" data-category="data"><div class="card-icon">🤖</div><span class="tag">DATA</span><h2>AI & Data Science</h2><p>Explore data-driven systems, machine learning concepts and intelligent applications.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">Python</span><span class="tag">Statistics</span><span class="tag">ML</span></div><a class="btn btn-small btn-secondary" href="assessment.html">Check your fit</a></article>
+<article class="info-card career-item" data-category="tech"><div class="card-icon">💻</div><span class="tag">TECH</span><h2>Full Stack Development</h2><p>Design and build responsive interfaces and web applications from frontend to backend.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><a class="btn btn-small btn-secondary" href="internships.html">Find internships</a></article>
+<article class="info-card career-item" data-category="data"><div class="card-icon">📊</div><span class="tag">DATA</span><h2>Data Analytics</h2><p>Use structured data, dashboards and visual storytelling to support decisions.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">BI</span></div><a class="btn btn-small btn-secondary" href="assessment.html">Check your fit</a></article>
+<article class="info-card career-item" data-category="tech"><div class="card-icon">🔐</div><span class="tag">TECH</span><h2>Cybersecurity</h2><p>Understand systems, networks and security practices that help protect digital assets.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">Networks</span><span class="tag">Linux</span><span class="tag">Security</span></div><a class="btn btn-small btn-secondary" href="internships.html">Find internships</a></article>
+<article class="info-card career-item" data-category="tech"><div class="card-icon">☁️</div><span class="tag">TECH</span><h2>Cloud Computing</h2><p>Learn the foundations of scalable computing, deployment and cloud services.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">Cloud</span><span class="tag">Linux</span><span class="tag">DevOps</span></div><a class="btn btn-small btn-secondary" href="internships.html">Find internships</a></article>
+<article class="info-card career-item" data-category="design"><div class="card-icon">🎨</div><span class="tag">DESIGN</span><h2>UI/UX Design</h2><p>Create clear, accessible and user-friendly digital experiences through research and design.</p><h4>Core skills</h4><div class="tag-row"><span class="tag">Research</span><span class="tag">Wireframes</span><span class="tag">UI</span></div><a class="btn btn-small btn-secondary" href="assessment.html">Check your fit</a></article>
+</div>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CareerForge</span><span>Responsive Career Explorer</span></div></footer>
+<script src="../js/main.js"></script><script src="../js/careers.js"></script>
+</body></html>

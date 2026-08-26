@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CareerForge interactive skill assessment">
+<title>Skill Assessment | CareerForge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="../index.html"><span class="brand-mark">CF</span><span>Career<span>Forge</span></span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"><a class="nav-link" href="../index.html">Home</a><a class="nav-link" href="careers.html">Careers</a><a class="nav-link active" href="assessment.html">Assessment</a><a class="nav-link" href="internships.html">Internships</a><a class="nav-link" href="dashboard.html">Dashboard</a><a class="nav-link" href="profile.html">Profile</a></nav>
+<button class="theme-toggle icon-button" type="button" aria-label="Toggle dark mode">◐</button>
+</div></header>
+<main id="main-content">
+<section class="page-hero"><div class="container"><span class="eyebrow">INTERACTIVE ASSESSMENT</span><h1>Which career path fits your interests?</h1><p>Answer five quick questions. Your result is a frontend recommendation, not a professional aptitude test.</p></div></section>
+<section class="section"><div class="container narrow">
+<div id="quiz-card" class="quiz-card card">
+<div class="quiz-meta"><span id="question-count">Question 1 of 5</span><span id="quiz-score">Progress 20%</span></div>
+<div class="progress"><span id="quiz-progress" style="width:20%"></span></div>
+<form id="assessment-form" class="quiz-form">
+<h2 id="question-text">What kind of work sounds most exciting?</h2>
+<div id="answer-list" class="answer-list"></div>
+<button class="btn btn-primary full-width" id="next-question" type="button" disabled>Next question →</button>
+</form>
+</div>
+<div id="assessment-result" class="result-card card hidden" aria-live="polite"></div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CareerForge</span><span>Interactive frontend feature</span></div></footer>
+<script src="../js/main.js"></script><script src="../js/assessment.js"></script>
+</body></html>
